@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "b77d7dc1-d6a4-40d3-ad1a-be18b2e3d05e",
+		"name": "Express-Starter-v3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20169535"
+	},
+	"item": [
+		{
+			"name": "Get all Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/user",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Dummy User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/dummy",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"dummy"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
